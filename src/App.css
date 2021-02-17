@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.currency-converter{
+    height:400px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 70px 20px;
+    box-shadow: 5px 10px #888888;
+}
+h2{
+    text-align: center;
+    font-size:1.2rem;
+    margin:30px 0 20px 0;
+    padding-top:20px;
+    color:rgb(145, 145, 223);
+}
+
+@media screen and (min-width:526px){
+    .currency-converter{
+        position:absolute;
+        top:20%;
+        left:35%
+    }
+}

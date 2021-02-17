@@ -1,0 +1,22 @@
+.fromcurrency span{
+   display: block;
+   text-align: center;
+   color:blue;
+}
+
+
+.inputs{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.each-currency{
+    margin:10px 20px;
+}
+label{
+    color:blue;
+    font-weight: 600;
+}
+input[type=radio]{
+    cursor: pointer;
+}

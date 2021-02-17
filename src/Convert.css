@@ -1,0 +1,19 @@
+.button{
+    /* height: 200px; */
+  position: relative;
+  
+}
+
+.convert{
+    margin: 0;
+    padding:5px;
+    position: absolute;
+    /* top: 60%; */
+    left:40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(30%);
+    border-radius:20px;
+    background-color: cornflowerblue;
+    color:black;
+    font-weight: 600;
+}
